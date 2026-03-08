@@ -17,6 +17,7 @@ def get_vectorstore():
     )
 
 def index_document(file_path):
+    print(f"Indexing file at {file_path}")
     fileName = os.path.basename(file_path)
     vectorstore = get_vectorstore()
     fileExists = vectorstore.get(where={"source":file_path})
