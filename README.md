@@ -73,7 +73,7 @@ logic concise and readable.
 5. Open your browser at http://localhost:8501
 
 ## Project Structure
-
+```
 rag-chatbot/
 ├── data/              # Uploaded PDF documents
 ├── vectorstore/       # ChromaDB persisted vectors
@@ -81,5 +81,6 @@ rag-chatbot/
 ├── rag.py             # Core RAG logic (indexing and querying)
 ├── config.py          # Configuration (chunk size, model names etc.)
 └── requirements.txt   # Project dependencies
+```
 
 ![RAG Chatbot Demo](assets/demo.png)
